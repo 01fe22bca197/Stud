@@ -1,5 +1,5 @@
-public class Stud {
-    String name = "Ranjita.H.Illur";
+public class Stud extends Studcourse {
+    String name = "Arpitha";
     String department = "BCA";
     String program = "BCA";
     public String RegistertedCourse[] = { " ", "C#", "Applied statistics", "Java" };
@@ -18,6 +18,7 @@ public class Stud {
     public static void main(String[] args) {
         Stud s = new Stud();
         s.display();
-
+        s.DisplayMarks();
+        s.displaylessthanfourty();
     }
 }
